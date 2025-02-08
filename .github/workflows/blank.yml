@@ -2,8 +2,8 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天 UTC 時間 00:00 執行
-  workflow_dispatch: # 新增這行
+    #- cron: '0 0 * * *' # 每天 UTC 時間 00:00 執行
+ # workflow_dispatch: # 新增這行
 
 jobs:
   update-readme:
